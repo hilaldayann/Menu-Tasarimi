@@ -1,0 +1,1769 @@
+<html>
+<head>
+<title> ZÜMRA SANAT EVİ </title>
+<!--<link rel="stylesheet" type="text/css" href="style.css">-->
+<style type="text/css">
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(resim.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+.title{
+  position: absolute; 
+  top: 40%;
+  left: 50%;
+  transform: translate(-30%,-30%);
+}
+.title h1{
+  color: lightgrey;
+  font-size: 70px;
+}
+.button{
+  margin-top: -1084px;
+}
+.button1{
+  margin-left: -115px;
+  position: relative; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-75%,-30%);
+  font-size: 25px;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+}
+.button2{
+   margin-left: 45px;
+  position: relative; 
+  top: 50%;
+  left: 50%;
+  transform: translate(35%,-30%);
+  font-size: 25px;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+}
+.logo img{
+  float: right;
+  width: 350px;
+  height: auto;
+  margin-top: -450px;
+}
+.wrapper{
+	position: relative;
+	margin: 0 auto;
+	padding: 0px 0;
+	clear: both;
+}
+.menu-area{
+	list-style: none;
+	padding:50;
+	margin: 0;
+	width: 250px;
+}
+.menu-area li{
+	position: relative;
+	padding-bottom: 10px;
+}
+.menu-area li a{
+	text-align: center;
+	height: 25px;
+	position: relative;
+	display: block;
+	text-decoration: none;
+	padding: 12px 20px;
+	color: black;
+}
+.menu-area li:hover > a{
+	color: black;
+}
+.menu-area li ul{
+  opacity: 0;
+  visibility: hidden;
+  transition: 300ms;
+  z-index: 999;
+  left: 280px;
+  top: 0;
+  list-style: none;
+  position: absolute;
+  height: auto;
+  min-width: 250px;
+  padding: 0;
+  margin: 0;
+}
+.menu-area li ul li{
+  background-color: lightgrey;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   margin-bottom: 15px;
+}
+.menu-area li ul li  ul{
+	opacity: 0;
+	visibility: hidden;
+	transition: 300ms;
+	z-index: 999;
+	left: 280px;
+	top: 0;
+	list-style: none;
+	position: absolute;
+	height: auto;
+	min-width: 250px;
+	padding: 0;
+	margin: 0;
+}
+.menu-area li:hover > ul{
+	display: block;
+	opacity: 1;
+	visibility: visible;
+	left: 265px;
+}
+.menu-area li ul li:hover > ul{
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  left: 265px;
+}
+.menu-area li ul li {
+	font-size: 17px;
+	letter-spacing: 3px;
+	padding: 10px;
+	text-align: center;
+	border: 0;
+	height: auto;
+  padding: 0px;
+}
+.menu-area li ul li ul{
+	left: 230px;
+	top: 0;
+	border: 0;
+}
+.fa-angle-right{
+  float: right;
+}
+.sanat1 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #E7FF0C; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.kağıt2 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #FFF11D; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.tuval3 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #FFD820; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.tablo4 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #FFC01C; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.grafik5 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #FFA31A; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.kalem6 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #FF8324; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.marker7 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #FF5E25; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.fırça8 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #FF3723; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.palet9 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #FF205C; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.doldurulabilir10 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #FF23B3; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.kaligrafi11 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #E029FF;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px; 
+   transition-duration: 0.5s;
+}
+.graffiti12 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #B01DFF; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.teknik13 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #7922FF; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.geleneksel14 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #4723FF; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.varak15 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #263CFF; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.baskı16 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #337AFF; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.heykel17 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #29BEFF; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.maket18 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #20F1FF; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.spatül19 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #26FFD7; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.yağdanlık20 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #22FFB2; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.proje21 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #1DFF88; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.sanatçı22 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #1FFF54; 
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   transition-duration: 0.5s;
+}
+.kampanya23 :hover {
+  box-shadow: inset 0 0 10px black;
+    background-color: #1DFF16;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px; 
+   transition-duration: 0.5s;
+}
+.sanat{
+   border-left: 6px solid #E7FF0C;
+   border-right: 6px solid #E7FF0C;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.kağıt{
+   border-left: 6px solid #FFF11D;
+   border-right: 6px solid #FFF11D;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.tuval{
+   border-left: 6px solid #FFD820;
+   border-right: 6px solid #FFD820;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.tablo{
+    border-left: 6px solid #FFC01C;
+    border-right: 6px solid #FFC01C;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.grafik{
+    border-left: 6px solid #FFA31A;
+    border-right: 6px solid #FFA31A;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.kalem{
+    border-left: 6px solid #FF8324;
+    border-right: 6px solid #FF8324;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.marker{
+    border-left: 6px solid #FF5E25;
+    border-right: 6px solid #FF5E25;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.fırça{
+    border-left: 6px solid #FF3723;
+    border-right: 6px solid #FF3723;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.palet{
+    border-left: 6px solid #FF205C;
+    border-right: 6px solid #FF205C;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.doldurulabilir{
+    border-left: 6px solid #FF23B3;
+     border-right: 6px solid #FF23B3;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.kaligrafi{
+    border-left: 6px solid #E029FF;
+    border-right: 6px solid #E029FF;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.graffiti{
+    border-left: 6px solid #B01DFF;
+    border-right: 6px solid #B01DFF;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.teknik{
+    border-left: 6px solid #7922FF;
+    border-right: 6px solid #7922FF;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.geleneksel{
+    border-left: 6px solid #4723FF;
+    border-right: 6px solid #4723FF;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.varak{
+    border-left: 6px solid #263CFF;
+    border-right: 6px solid #263CFF;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.baskı{
+    border-left: 6px solid #337AFF;
+    border-right: 6px solid #337AFF;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.heykel{border-left: 6px solid #29BEFF;
+    border-right: 6px solid #29BEFF;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.maket{
+    border-left: 6px solid #20F1FF;
+    border-right: 6px solid #20F1FF;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.spatül{
+    border-left: 6px solid #26FFD7;
+    border-right: 6px solid #26FFD7;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.yağdanlık{
+    border-left: 6px solid #22FFB2;
+    border-right: 6px solid #22FFB2;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.proje{
+    border-left: 6px solid #1DFF88;
+    border-right: 6px solid #1DFF88;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.sanatçı{
+    border-left: 6px solid #1FFF54;
+    border-right: 6px solid #1FFF54;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.kampanya{
+    border-left: 6px solid #1DFF16;
+    border-right: 6px solid #1DFF16;
+   background-color: lightgrey;
+   border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.sanatt{
+  border-left: 6px solid #E7FF0C;
+   border-right: 6px solid #E7FF0C;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.kağıtt{
+  border-left: 6px solid #FFF11D;
+   border-right: 6px solid #FFF11D;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.tuvall{
+  border-left: 6px solid #FFD820;
+   border-right: 6px solid #FFD820;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.tabloo{
+  border-left: 6px solid #FFC01C;
+   border-right: 6px solid #FFC01C;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.grafikk{
+  border-left: 6px solid #FFA31A;
+   border-right: 6px solid #FFA31A;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.kalemm{
+  border-left: 6px solid #FF8324;
+   border-right: 6px solid #FF8324;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.markerr{
+  border-left: 6px solid #FF5E25;
+   border-right: 6px solid #FF5E25;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.fırçaa{
+  border-left: 6px solid #FF3723;
+   border-right: 6px solid #FF3723;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.palett{
+  border-left: 6px solid #FF205C;
+   border-right: 6px solid #FF205C;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.doldurulabilirr{
+  border-left: 6px solid #FF23B3;
+   border-right: 6px solid #FF23B3;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.kaligrafii{
+  border-left: 6px solid #E029FF;
+   border-right: 6px solid #E029FF;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.graffitii{
+  border-left: 6px solid #B01DFF;
+   border-right: 6px solid #B01DFF;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.teknikk{
+  border-left: 6px solid #7922FF;
+   border-right: 6px solid #7922FF;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.geleneksell{
+  border-left: 6px solid #4723FF;
+   border-right: 6px solid #4723FF;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.varakk{
+  border-left: 6px solid #263CFF;
+   border-right: 6px solid #263CFF;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.baskıı{
+  border-left: 6px solid #337AFF;
+   border-right: 6px solid #337AFF;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.heykell{
+  border-left: 6px solid #29BEFF;
+   border-right: 6px solid #29BEFF;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.makett{
+  border-left: 6px solid #20F1FF;
+   border-right: 6px solid #20F1FF;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.spatüll{
+  border-left: 6px solid #26FFD7;
+   border-right: 6px solid #26FFD7;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.yağdanlıkk{
+  border-left: 6px solid #22FFB2;
+   border-right: 6px solid #22FFB2;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.projee{
+  border-left: 6px solid #1DFF88;
+   border-right: 6px solid #1DFF88;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+.sanatçıı{
+  border-left: 6px solid #1FFF54;
+   border-right: 6px solid #1FFF54;
+    border-top-left-radius: 15px;
+   border-bottom-right-radius: 15px; 
+}
+.sanattt{
+  border-bottom: 6px solid #E7FF0C;
+  border-bottom-right-radius: 15px;
+}
+.kağıttt{
+  border-bottom: 6px solid #FFF11D;
+  border-bottom-right-radius: 15px;
+}
+.tuvalll{
+  border-bottom: 6px solid #FFD820;
+  border-bottom-right-radius: 15px;
+}
+.tablooo{
+  border-bottom: 6px solid #FFC01C;
+  border-bottom-right-radius: 15px;
+}
+.grafikkk{
+  border-bottom: 6px solid #FFA31A;
+  border-bottom-right-radius: 15px;
+}
+.kalemmm{
+  border-bottom: 6px solid #FF8324;
+  border-bottom-right-radius: 15px;
+}
+.markerrr{
+  border-bottom: 6px solid #FF5E25;
+  border-bottom-right-radius: 15px;
+}
+.fırçaaa{
+  border-bottom: 6px solid #FF3723;
+  border-bottom-right-radius: 15px;
+}
+.kaligrafiii{
+  border-bottom: 6px solid #E029FF;
+  border-bottom-right-radius: 15px;
+}
+.graffitiii{
+  border-bottom: 6px solid #B01DFF;
+  border-bottom-right-radius: 15px;
+}
+.teknikkk{
+  border-bottom: 6px solid #7922FF;
+  border-bottom-right-radius: 15px;
+} 
+.gelenekselll{
+  border-bottom: 6px solid #4723FF;
+  border-bottom-right-radius: 15px;
+}
+.varakkk{
+  border-bottom: 6px solid #263CFF;
+  border-bottom-right-radius: 15px;
+}
+.baskııı{
+  border-bottom: 6px solid #337AFF;
+  border-bottom-right-radius: 15px;
+}
+.heykelll{
+  border-bottom: 6px solid #29BEFF;
+  border-bottom-right-radius: 15px;
+}
+.makettt{
+  border-bottom: 6px solid #20F1FF;
+  border-bottom-right-radius: 15px;
+}
+</style>
+<link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+     <div class="title">
+          <h1>ZÜMRA SANAT EVİ</h1>
+     </div>
+     
+	<div class="wrapper">
+		<nav>
+			<ul class="menu-area">
+				<div class = "sanat1">
+				<li><a href="#" class = " sanat " >SANAT</a>
+				<ul>
+					<li><a href = " # " class = " sanatt " > Sulu Boya <i class="fa fa-angle-right"></i></a>
+						<ul>
+							<li><a href = " # " class = " sanattt " > Sulu Boya Setleri </a></li>
+     			    		     <li><a href = " # "  class = " sanattt "> Profesyonel Sulu Boya </a></li>
+     						<li><a href = " # "  class = " sanattt "> Artist Sulu Boya </a></li>
+     						<li><a href = " # "  class = " sanattt "> Sulu Boya Kağıt Ve Blokları </a></li>
+     	        			     <li><a href = " # "  class = " sanattt "> Sulu Boya Fırçaları </a></li>
+     						<li><a href = " # "  class = " sanattt "> Sulu Boya Kalemi</a></li>
+						</ul>
+					</li>
+     			     <li><a href = " # " class = " sanatt " > Akrilik Boya <i class="fa fa-angle-right"></i></a>
+     			    	     <ul>
+							<li><a href = " # " class = " sanattt " > Akrilik Boya Setleri </a></li>
+     			    		     <li><a href = " # " class = " sanattt " > Profesyonel Akrilik Boya </a></li>
+     						<li><a href = " # " class = " sanattt " > Artist Akrilik Boya </a></li>
+     						<li><a href = " # " class = " sanattt " > Akrilik Boya Yardımcıları </a></li>
+     	        			     <li><a href = " # " class = " sanattt " > Likit Akrilik </a></li>
+     						<li><a href = " # " class = " sanattt " > Akrilik Kağıt Ve Blok</a></li>
+				          </ul>
+     			     </li>
+     			     <li><a href = " # " class = " sanatt " > Yağlı Boya <i class="fa fa-angle-right"></i></a>
+     			    	     <ul>
+							<li><a href = " # " class = " sanattt " > Yağlı Boya Setleri </a></li>
+     			    		     <li><a href = " # " class = " sanattt " > Profesyonel Yağlı Boya </a></li>
+     						<li><a href = " # " class = " sanattt " > Artist Yağlı Boya </a></li>
+     						<li><a href = " # " class = " sanattt " > Yağlı Boya Yardımcıları </a></li>
+     	        			     <li><a href = " # " class = " sanattt " > Bob Ross Yağlı Boya </a></li>
+     						<li><a href = " # " class = " sanattt " > Yağlı Boya Fırçalar </a></li>
+						</ul>
+     			     </li>
+     				<li><a href = " # " class = " sanatt " > Pastel Boya <i class="fa fa-angle-right"></i></a>
+     					<ul>
+							<li><a href = " # " class = " sanattt " > Pastel Boya Setleri </a></li>
+     			    		     <li><a href = " # "  class = " sanattt "> Artist Soft Pastel </a></li>
+     						<li><a href = " # " class = " sanattt " > Soft Pastel Boya </a></li>
+     						<li><a href = " # " class = " sanattt " > Pastel Kağıt Ve Blok </a></li>
+     	        			     <li><a href = " # " class = " sanattt " > Pastel Kalem </a></li>
+     						<li><a href = " # " class = " sanattt " > Yağlı Pastel Boya </a></li>
+						</ul>
+     				</li>
+     				<li><a href = " # " class = " sanatt " > Guaj Boya</a></li>
+     	        	     <li><a href = " # " class = " sanatt " > Resim Malzemeleri <i class="fa fa-angle-right"></i></a>
+     	        		     <ul>
+							<li><a href = " # " class = " sanattt " > Fırça </a></li>
+     			    		     <li><a href = " # " class = " sanattt " > Çanta - Proje Tüpü </a></li>
+     						<li><a href = " # " class = " sanattt " > Palet </a></li>
+     						<li><a href = " # " class = " sanattt " > Spatül </a></li>
+     	        			     <li><a href = " # " class = " sanattt " > Model - Manken </a></li>
+     						<li><a href = " # " class = " sanattt " > Diğer Resim Malzemeleri </a></li>
+						</ul>
+     	        	     </li>
+     				<li><a href = " # " class = " sanatt " > Seramik & Heykel <i class="fa fa-angle-right"></i></a>
+     					<ul>
+							<li><a href = " # " class = " sanattt " > Seramik Aletleri </a></li>
+     			    		     <li><a href = " # " class = " sanattt " > Modelleme Kili </a></li>
+     						<li><a href = " # " class = " sanattt " > Seramik Heykel Çamuru </a></li>
+     						<li><a href = " # " class = " sanattt " > Turnet - Sehpa - Kaide </a></li>
+     	        			     <li><a href = " # " class = " sanattt " > Seramik Boyası </a></li>
+     						<li><a href = " # " class = " sanattt " > Modelleme Reçinesi </a></li>
+						</ul>
+     				</li>
+			     </ul>
+				</li>
+				</div>
+				<div class = "kağıt2"> 
+				<li><a href="#" class = " kağıt ">KAĞIT</a>
+				<ul>
+					<li><a href = " # " =  class = " kağıtt " > Suluboya Kağıtları <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Suluboya Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>   
+     				<li><a href = " # " =  class = " kağıtt " > Pastel Kağıtlar <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Pastel Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>     			
+     				<li><a href = " # " =  class = " kağıtt " > Yağlı <i class="fa fa-angle-right"></i>Boya Kağıtları </a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Yağlı Boya Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		    	     <li><a href = " # " =  class = " kağıtt " > <i class="fa fa-angle-right"></i>Sketch, Eskiz Ve Çizim Defterleri </a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Defter Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Marker Pad <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Marker Pad Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Aydinger <i class="fa fa-angle-right"></i>- Eskiz Kağıdı </a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Aydinger - Eskiz Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Rulo Eskiz <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Rulo Eskiz Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Akrilik Kağıtlar <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Akrilik Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Gravür Kağıtları <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Gravür Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Resim Defterleri <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Defter Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Tabaka Kağıtlar <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Tabaka Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Fon Kartonu <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Fon Kartonu Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Papirüs Kağıdı <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Papirüs Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>     
+     				<li><a href = " # " =  class = " kağıtt " > Teknik <i class="fa fa-angle-right"></i>Çizim Kağıdı </a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Çizim Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Bristol Kağıdı <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Bristol Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Paspartu Kartonu <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Karton Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Desenli <i class="fa fa-angle-right"></i>Dekoratif Kağıt </a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Dekoratif Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Murakka Kartonu <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Karton Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Kopya Kağıdı <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Kraft Kağıt <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Schoeller Kağıt <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Fil Kağıdı <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Baskı Kağıdı <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Kaligrafi Kağıdı <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Quilling </a></li>
+     				<li><a href = " # " =  class = " kağıtt " > Ebru Kağıdı <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " kağıtt " > Origami Kağıdı <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " kağıttt " > Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+				</ul>
+				</li>
+				</div>	
+     	          <div class = "tuval3">
+				<li><a href="#" class = " tuval ">TUVAL & ŞÖVALE</a>
+				<ul>
+					<li><a href = " # " = class = " tuvall " > Tuval Bezleri <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Bez Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " tuvall " > Pres Tuvaller <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Tuval Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " tuvall " > Akademi Tuval <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Tuval Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " tuvall " > Desenli Tuval <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Tuval Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " tuvall " > Profesyonel Tuvaller <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Tuval Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " tuvall " > Üçgen - Altıgen Tuval <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Tuval Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " tuvall " > Öğrenci Tuval <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Tuval Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " tuvall " > Yuvarlak Tuval <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Tuval Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " tuvall " > Oval Tuval <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Tuval Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		    	     <li><a href = " # " = class = " tuvall " > Double Şase Tuval<i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Tuval Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		    	     <li><a href = " # " = class = " tuvall " > Tuval Germe Pensesi <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Pense Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		    	     <li><a href = " # " = class = " tuvall " > Profesyonel Şövale<i class="fa fa-angle-right"></i> </a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Şövale Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		          <li><a href = " # " = class = " tuvall " > Mini Şövale <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Şövale Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		   		<li><a href = " # " = class = " tuvall " > Studio Şövale <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # "  class = " tuvalll "> Şövale Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		    	     <li><a href = " # " = class = " tuvall " > Sulu Boya Şövale <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Şövale Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		    	     <li><a href = " # " = class = " tuvall " > Alüminyum Şövale <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Şövale Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		    	     <li><a href = " # " = class = " tuvall " > Masaüstü Şövale <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Şövale Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		    	     <li><a href = " # " = class = " tuvall " > Ahşap Kır Tipi Şövale <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Şövale Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		    	     <li><a href = " # " = class = " tuvall " > Ressam Masası <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tuvalll " > Masa Çeşitleri </a></li>
+                              </ul>
+                         </li>
+				</ul>
+				</li>
+				</div>	
+     	          <div class = "tablo4">
+				<li><a href="#" class = " tablo ">TABLO</a>
+				<ul>
+					<li><a href = " # " = class = " tabloo " > Orijinal Resim </a></li>
+     				<li><a href = " # " = class = " tabloo " > Orijinal Ebru </a></li>
+     				<li><a href = " # " = class = " tabloo " > Hat Levhası <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tablooo " > Levha Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " tabloo " > Orijinal Tezhib - Minyatür <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " tablooo " > Tezhip - Minyatür Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		    	     <li><a href = " # " = class = " tabloo " > Akkase Ebru Hat </a></li>
+				</ul>
+				</li>
+				</div>
+     	          <div class = "grafik5">
+				<li><a href="#" class = " grafik ">GRAFİK & ÇİZİM</a>
+				<ul>
+					<li><a href = " # " = class = " grafikk " > Resim Kalemleri <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Kuru Boyalar <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Boya Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Aquarel Boyalar <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Boya Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Versatil Kalemler <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Çizim Markerleri <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Marker Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Teknik Çizim Kalemleri <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Teknik Çizim Gereçleri </a></li>
+     				<li><a href = " # " = class = " grafikk " > Aksesuarlar </a></li>
+     				<li><a href = " # " = class = " grafikk " > Çizim Kağıtları <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Çizim Malzemeleri </a></li>
+     				<li><a href = " # " = class = " grafikk " > Asetat Kalemi <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Sulu Boya Kalemi <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Marker Kalem <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Pastel Boya Kalemi <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Jel Kalemler <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Rapido Kalemi <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Işıklı Çizim Masası <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Masa Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Fırça Uçlu Kalem <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Mürekkep </a></li>
+     				<li><a href = " # " = class = " grafikk " > Çizim Kitap Ve Dergileri <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Kitap Ve Dergi Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Fosforlu Kalem <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Keçeli Kalem <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Tarama Ucu Ve Sapı </a></li>
+     				<li><a href = " # " = class = " grafikk " > Eskiz Dereceli Füzen Kalem </a></li>
+     				<li><a href = " # " = class = " grafikk " > Fiksatifler </a></li>
+     				<li><a href = " # " = class = " grafikk " > Pilot - Roller - Dolma Kalem <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " grafikkk " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " grafikk " > Portmin Kalem </a></li>	
+     				<li><a href = " # " = class = " grafikk " > Grafit Kalem </a></li>
+     				<li><a href = " # " = class = " grafikk " > Mimari Kalem </a></li>
+				</ul>
+				</li>
+				</div>		
+     			<div class = "kalem6">
+				<li><a href="#" class = " kalem ">KALEM</a>
+				<ul>
+					<li><a href = " # " = class = " kalemm " > Renklendirme Kalemleri <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kalemmm " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " kalemm " > Molotow Marker <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kalemmm " > Marker Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " kalemm " > Kalem Ve Markerler <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kalemmm " > Marker Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " kalemm " > Kalem Çantaları <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kalemmm " > Çanta Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " kalemm " > Portmin Versatil Kalemler <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kalemmm " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " kalemm " > Fırça Uçlu Kalemler <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kalemmm " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " kalemm " > Uni Posca Marker <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kalemmm " > Marker Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " kalemm " > Simli Kalemler <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kalemmm " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " kalemm " > Dolma Kalem Mürekkebi </a></li>
+     				<li><a href = " # " = class = " kalemm " > Tattoo Kalemleri <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kalemmm " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " kalemm " > Tükenmez Kalemler </a></li>
+     				<li><a href = " # " = class = " kalemm " > Çok Amaçlı Markör </a></li>
+     				<li><a href = " # " = class = " kalemm " > Kalın Uçlu Markörler<i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kalemmm " > Markör Çeşitleri </a></li>
+                              </ul>
+                         </li>
+				</ul>
+				</li>
+				</div>
+     			<div class = "marker7">
+				<li><a href="#" class = " marker ">MARKER</a>
+				<ul>
+					<li><a href = " # " = class = " markerr " > Marker Kalem <i class="fa fa-angle-right"></i></a>
+						<ul>
+							<li><a href = " # " class = " markerrr " > Copic Marker </a></li>
+     			    		     <li><a href = " # " class = " markerrr " > Touch Marker Kalem </a></li>
+     						<li><a href = " # " class = " markerrr " > Winsor Newton Marker </a></li>
+     						<li><a href = " # " class = " markerrr " > Zig Marker Kalem </a></li>
+     	        			     <li><a href = " # " class = " markerrr " > Chameleon Marker </a></li>
+     						<li><a href = " # " class = " markerrr " > Be Creative Twin Art</a></li>
+						</ul>
+					</li>
+     				<li><a href = " # " = class = " markerr " > Paint Marker <i class="fa fa-angle-right"></i></a>
+     					<ul>
+							<li><a href = " # " class = " markerrr " > Uni Posca Marker </a></li>
+     			    		     <li><a href = " # " class = " markerrr " > Pebeo Paint Marker </a></li>
+     						<li><a href = " # " class = " markerrr " > Zig Paint Marker Kalem </a></li>
+     						<li><a href = " # " class = " markerrr " > Marvy Paint Marker </a></li>
+     	        			     <li><a href = " # " class = " markerrr " > Marabu Marker Kalem </a></li>
+     						<li><a href = " # " class = " markerrr " > Sharpie Marker </a></li>
+						</ul>
+     				</li>
+     				<li><a href = " # " = class = " markerr " > Brush Marker <i class="fa fa-angle-right"></i></a>
+     					<ul>
+							<li><a href = " # " class = " markerrr " > Touch Brush Marker </a></li>
+     			    		     <li><a href = " # " class = " markerrr " > Zig Brush Marker </a></li>
+     						<li><a href = " # " class = " markerrr " > Tombow Brush Marker </a></li>
+     						<li><a href = " # " class = " markerrr " > Sakura Brush Marker </a></li>
+     	        			     <li><a href = " # " class = " markerrr " > Marvy Brush Marker </a></li>
+     						<li><a href = " # " class = " markerrr " > Faber Pitt Artist Brush </a></li>
+						</ul>
+     				</li>
+     				<li><a href = " # " = class = " markerr " > Marker Pad <i class="fa fa-angle-right"></i></a>
+     					<ul>
+							<li><a href = " # " class = " markerrr " > Transotype Marker Pad </a></li>
+     			    		     <li><a href = " # " class = " markerrr " > Fabriano Marker Pad </a></li>
+     						<li><a href = " # " class = " markerrr " > Touch Marker Pad </a></li>
+     						<li><a href = " # " class = " markerrr " > Daley Rowney Marker Pad </a></li>
+     	        			     <li><a href = " # " class = " markerrr " > Winsor Marker Pad </a></li>
+     						<li><a href = " # " class = " markerrr " > Canson Marker Pad </a></li>
+						</ul>
+     				</li>
+     				<li><a href = " # " = class = " markerr " > Manga - Anime <i class="fa fa-angle-right"></i></a>
+     					<ul>
+							<li><a href = " # " class = " markerrr " > Zig Manga Kalemleri </a></li>
+     			    		     <li><a href = " # " class = " markerrr " > Faber Castell Manga Pen </a></li>
+     						<li><a href = " # " class = " markerrr " > Tombow Manga Pen </a></li>
+     						<li><a href = " # " class = " markerrr " > Sakura Koi Manga Kalem </a></li>
+     	        			     <li><a href = " # " class = " markerrr " > Copic Ciao Manga </a></li>
+     						<li><a href = " # " class = " markerrr " > Marabu - Manga Kalemleri </a></li>
+						</ul>
+     				</li>
+     				<li><a href = " # " = class = " markerr " > Marker Yedek Mürekkepleri <i class="fa fa-angle-right"></i></a>
+     					<ul>
+							<li><a href = " # " class = " markerrr " > Copic Various Ink </a></li>
+     			    		     <li><a href = " # " class = " markerrr " > Chameleon Marker Ink </a></li>
+     						<li><a href = " # " class = " markerrr " > Touch Marker Refill Ink </a></li>
+     						<li><a href = " # " class = " markerrr " > Zig Refill Ink </a></li>
+						</ul>
+     				</li>
+     				<li><a href = " # " = class = " markerr " > Marker Kalem Çantası </a></li>
+				</ul>
+				</li>
+				</div>	
+     			<div class = "fırça8">
+				<li><a href="#" class = " fırça ">FIRÇA</a>
+				<ul>
+					<li><a href = " # " =  class = " fırçaa "> Fırça Setleri <i class="fa fa-angle-right"></i></a>
+						<ul>
+							<li><a href = " # " class = " fırçaaa " > Profesyonel Fırça Setleri </a></li>
+     			    		     <li><a href = " # " class = " fırçaaa " > Öğrenci Fırça Setleri </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Hobi Fırça Setleri </a></li>
+						</ul>
+					</li>
+     				<li><a href = " # " =  class = " fırçaa "> Hobi Fırçası <i class="fa fa-angle-right"></i></a>
+     					<ul>
+							<li><a href = " # " class = " fırçaaa " > Düz Kesik - One Strike </a></li>
+     			    		     <li><a href = " # " class = " fırçaaa " > Tampon - Stencil Fırça </a></li>
+						</ul>
+     				</li>
+     				<li><a href = " # " =  class = " fırçaa "> Sulu Boya Fırçası <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " fırçaaa " > Fırça Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " fırçaa "> Akrilik Ve Yağlı Boya Fırçası <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " fırçaaa " > Fırça Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " fırçaa "> Tezhib - Minyatür Fırçası <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " fırçaaa " > Fırça Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " fırçaa "> Zemin Yüzey Fırçası <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " fırçaaa " > Fırça Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " fırçaa "> Tabela - Yazı Fırçası <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " fırçaaa " > Fırça Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " fırçaa "> Su Hazneli Fırça <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " fırçaaa " > Fırça Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " fırçaa "> Pastel Boya Fırçası <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " fırçaaa " > Fırça Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " fırçaa "> Pon Pon Fırça <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " fırçaaa " > Fırça Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " fırçaa "> Fırça Temizleyiciler <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " fırçaaa " > Temizleyici Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " =  class = " fırçaa "> Kıl Türüne Göre Fırçalar <i class="fa fa-angle-right"></i></a>
+     					<ul>
+							<li><a href = " # " class = " fırçaaa " > Midilli Kılı Fırça </a></li>
+     			    		     <li><a href = " # " class = " fırçaaa " > Keçi Kılı Fırça </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Porsuk Kılı Fırça </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Samur Kılı Fırça </a></li>
+     	        			     <li><a href = " # " class = " fırçaaa " > Manda Kılı Fırça </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Sincap Kılı Fırça </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Sentetik Fırça </a></li>
+     			    		     <li><a href = " # " class = " fırçaaa " > Karışık Kıl Fırça </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Domuz Kılı Fırça </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Kedi Kılı Fırça </a></li>
+						</ul>
+     				</li>
+     				<li><a href = " # " = class = " fırçaa " > Şekline Göre Fırçalar <i class="fa fa-angle-right"></i></a>
+     					<ul>
+							<li><a href = " # " class = " fırçaaa " > Bıçak Kılıç Fırça </a></li>
+     			    		     <li><a href = " # " class = " fırçaaa " > Yuvarlak Uçlu Fırçalar </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Düz Uçlu Fırçalar </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Yan Kesik Fırçalar </a></li>
+     	        			     <li><a href = " # " class = " fırçaaa " > Yelpaze Fırçalar </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Kedi Dili Fırçalar </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Dal Liner Fırçalar </a></li>
+     			    		     <li><a href = " # " class = " fırçaaa " > Çok Uçlu Fırçalar </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Tarak Fırçalar </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Oval Fırçalar </a></li>
+						</ul>
+     				</li>
+     				<li><a href = " # " = class = " fırçaa " > Fırça Saklama Gereçleri </a></li>
+     				<li><a href = " # " = class = " fırçaa " > Tonlama Fırçalar<i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " fırçaaa " > Fırça Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " fırçaa " > Özel Fırçalar<i class="fa fa-angle-right"></i></a>
+     					<ul>
+							<li><a href = " # " class = " fırçaaa " > Rötuş Fırçası </a></li>
+     			    		     <li><a href = " # " class = " fırçaaa " > Temizleme Fırçası </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Korozyon Hareketi Fırçası </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Çini Seramik Fırçası </a></li>
+     	        			     <li><a href = " # " class = " fırçaaa " > Kaynaştırma Fırçası </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Kaligrafi Fırçası </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Altın Varak Fırçası </a></li>
+     			    		     <li><a href = " # " class = " fırçaaa " > Gomalak Fırçası </a></li>
+     						<li><a href = " # " class = " fırçaaa " > Catalyst Fırçası </a></li>
+						</ul>
+     				</li>
+     				<li><a href = " # " = class = " fırçaa " > Diğer Fırça Malzemeleri <i class="fa fa-angle-right"></i></a>
+     					<ul>
+							<li><a href = " # " class = " fırçaa "> Saklama Kabı </a></li>
+     			    		     <li><a href = " # " class = " fırçaa "> Fırça Ve El Temizleme </a></li>
+						</ul>
+     				</li>
+				</ul>
+				</li>
+				</div>	
+     			<div class = "palet9">
+				<li><a href="#" class = " palet ">PALET</a>
+                         <ul>
+                              <li><a href = " # " class=" palett" > Palet Çeşitleri </a></li>
+                         </ul>
+                    </li>
+				</div>	
+     			<div class = "doldurulabilir10">
+				<li><a href="#" class = " doldurulabilir ">DOLDURULABİLİR BOYA KALEMİ</a>
+                         <ul>
+                              <li><a href = " # " class = " doldurulabilirr " > Kalem Çeşitleri </a></li>
+                         </ul>
+                    </li>
+				</div>	
+     			<div class = "kaligrafi11">
+				<li><a href="#" class = " kaligrafi ">KALİGRAFİ & YAZI</a>
+				<ul>
+					<li><a href = " # " = class = " kaligrafii " > Kaligrafi Kalemleri <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kaligrafiii " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " kaligrafii " > Kaligrafi Setleri </a></li>
+     				<li><a href = " # " = class = " kaligrafii " > Yazı Uçları <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kaligrafiii " > Uç Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " kaligrafii " > Kaligrafi Defterleri <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kaligrafiii " > Defter Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " kaligrafii " > Kaligrafi Yardımcı </a></li>
+     				<li><a href = " # " = class = " kaligrafii " > Tarama Sapı <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kaligrafiii " > Sap Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " kaligrafii " > Kaligrafi Divit Sapları <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kaligrafiii " > Sap Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " kaligrafii " > Kaligrafi Mürekkepleri </a></li>
+     				<li><a href = " # " = class = " kaligrafii " > Kaligrafi Kağıtları <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kaligrafiii " > Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " kaligrafii " > Kaligrafi Kitabı <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " kaligrafiii " > Kitap Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " kaligrafii " > Refiller </a></li>
+				</ul>
+				</li>
+				</div>		
+     			<div class = "graffiti12">
+				<li><a href="#" class = " graffiti ">GRAFFİTİ</a>
+				<ul>
+     				<li><a href = " # " = class = " graffitii " > Sprey Boya <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " graffitiii " > Boya Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " graffitii " > Akrilik Sprey Boyalar <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " graffitiii " > Boya Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " graffitii " > Sprey Boya Yardımcı Malzemeleri</a></li>
+     				<li><a href = " # " = class = " graffitii " > Graffiti Marker <i class="fa fa-angle-right"></i></a>
+     					<ul>
+							<li><a href = " # " class = " graffitiii " > Paint Marker </a></li>
+     			    		     <li><a href = " # " class = " graffitiii " > Chalk Marker </a></li>
+     						<li><a href = " # " class = " graffitiii " > Acrylic Marker </a></li>
+     						<li><a href = " # " class = " graffitiii " > Poster Marker </a></li>
+     	        			     <li><a href = " # " class = " graffitiii " > Oil Based Marker </a></li>
+     						<li><a href = " # " class = " graffitiii " > Empty Marker </a></li>
+						</ul>
+     				</li>
+     				<li><a href = " # " = class = " graffitii " > Airbrush <i class="fa fa-angle-right"></i></a>
+     					<ul>
+							<li><a href = " # " class = " graffitiii " > Airbrush Boyası </a></li>
+     			    		     <li><a href = " # " class = " graffitiii " > Airbrush Kompresör </a></li>
+     						<li><a href = " # " class = " graffitiii " > Airbrush Tabanca </a></li>
+     						<li><a href = " # " class = " graffitiii " > Airbrush Cleaning </a></li>
+						</ul>
+     				</li>
+     			</ul>
+     			</li>
+     			</div>	
+     	          <div class = "teknik13">
+				<li><a href="#"class = " teknik ">TEKNİK</a>
+				<ul>
+     				<li><a href = " # " = class = " teknikk " > Cetvel Ve Şablonlar <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " teknikkk " > Cetvel Ve Şablon Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " teknikk " > Teknik Çizim Kalemleri <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " teknikkk " > Kalem Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " teknikk " > Işıklı Masalar <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " teknikkk " > Masa Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li><a href = " # " = class = " teknikk " > Kesme Matı </a></li>
+     			</ul>
+     			</li>
+     			</div>	
+     	          <div class = "geleneksel14">
+				<li><a href="#" class = " geleneksel ">GELENEKSEL</a>
+				<ul>
+     				<li> <a href = " # " = class = " geleneksell "> Ebru Malzemeleri <i class="fa fa-angle-right"></i></a>
+     					<ul>
+     						<li><a href = " # " = class = " gelenekselll "  > Ebru Boyası </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Ebru Fırçası </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Ebru Kağıdı </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Ebru Seti </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Ebru Tarağı </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Ebru Teknesi </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Ebru Yardımcı Malzemeleri </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Kıvam Arttırıcı </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Ebru Kitapları </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Ebru Kurutma Rafı </a></li>
+     					</ul>
+     				</li>
+     		    	<li> <a href = " # " = class = " geleneksell "> Hat Malzemeleri <i class="fa fa-angle-right"></i></a>
+     		    		<ul>
+     						<li><a href = " # " = class = " gelenekselll "  > Hat Bıçağı </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Hat Kağıdı </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Hat Kalemleri </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Hat Kitapları </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Hat Mürekkebi </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Hat Seti </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Hat Yardımcı Malzemeleri </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Hokka </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Makta </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Yazı Altlığı </a></li>
+     					</ul>
+     		    	</li>
+     		    	<li> <a href = " # " = class = " geleneksell "> Tezhip Malzemeleri <i class="fa fa-angle-right"></i></a>
+     		    		<ul>
+     						<li><a href = " # " = class = " gelenekselll "  > Pergel Ve Trilin </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Yaprak Ve Ezilmiş Altın </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Tezhip Kalemi </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Mühre </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Rapido Mürekkebi </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Tezhip Boyası </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Tezhip Fırçası </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Tezhip Kağıdı </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Tezhip Kitapları </a></li>
+     						<li><a href = " # " = class = " gelenekselll "  > Tezhip Yardımcı Malzemeleri </a></li>
+     					</ul>
+     		    	</li>
+     		    	<li> <a href = " # " = class = " geleneksell "> Çini Mürekkepler </a></li>
+     			<li> <a href = " # " = class = " geleneksell "> Tekneler <i class="fa fa-angle-right"></i></a>
+                         <ul>
+                              <li><a href = " # " class = " gelenekselll " > Tekne Çeşitleri </a></li>
+                         </ul>
+                    </li>
+     			<li> <a href = " # " = class = " geleneksell "> Mühreler </a></li>
+     			<li> <a href = " # " = class = " geleneksell "> Gomalak </a></li>
+     		    	<li> <a href = " # " = class = " geleneksell "> Kıvam Arttırıcılar <i class="fa fa-angle-right"></i></a>
+                         <ul>
+                              <li><a href = " # " class = " gelenekselll " > Arttırıcı Çeşitleri </a></li>
+                         </ul>
+                    </li>
+     			</ul>
+     			</li>
+     			</div>
+     			<div class = "varak15">
+				<li><a href="#" class = " varak ">VARAK</a>
+				<ul>
+     				<li> <a href = " # " = class = " varakk "> Ezilmiş - Yaprak Altın Varaklar <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " varakkk " > Varak Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " varakk "> Sıvı Varaklar <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " varakkk " > Varak Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " varakk "> Astar Ve Lambez <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " varakkk " > Astar Ve Lambez Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " varakk "> Vernik </a></li>
+                              <ul>
+                                   <li><a href = " # " class = " varakkk " > Vernik Çeşitleri </a></li>
+                              </ul>
+     				<li> <a href = " # " = class = " varakk "> İmitasyon Varak <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " varakkk " > Varak Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " varakk "> Yaldız <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " varakkk " > Yaldız Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		    	     <li> <a href = " # " = class = " varakk "> Mühre <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " varakkk " > Mühre Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " varakk "> Miksiyonlar Yapıştıırcı </a></li>
+     			</ul>
+     			</li>
+     			</div>	
+     			<div class = "baskı16">
+				<li><a href="#" class = " baskı ">BASKI</a>
+				<ul>
+            		<li> <a href = " # " = class = " baskıı "> Linol Baskı Boyası <i class="fa fa-angle-right"></i></a>
+                         <ul>
+                              <li><a href = " # " class = " baskııı " > Boya Çeşitleri </a></li>
+                         </ul>
+                    </li>
+     				<li> <a href = " # " = class = " baskıı "> Linol Oyma Bıçağı </a></li>
+     				<li> <a href = " # " = class = " baskıı "> Linol Tabaka <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " baskııı " > Tabaka Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " baskıı "> Linol Yardımcı Malzemeler </a></li>	
+     				<li> <a href = " # " = class = " baskıı "> Oyma Blokları <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " baskııı " > Blok Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		      	<li> <a href = " # " = class = " baskıı "> Ahşap Oyma Seti <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " baskııı " > Set Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " baskıı "> Gravür Boyası <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " baskııı " > Boya Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		    	     <li> <a href = " # " = class = " baskıı "> Gravür Presi <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " baskııı " > Pres Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " baskıı "> Gravür Kağıdı <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " baskııı " > Kağıt Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " baskıı "> Gravür Aletleri </a></li>
+     				<li> <a href = " # " = class = " baskıı "> Matbaa Mürekkebi </a></li>
+     		    	     <li> <a href = " # " = class = " baskıı "> Litografi Mürekkebi </a></li>
+     				<li> <a href = " # " = class = " baskıı "> Çinko Levha <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " baskııı " > Levha Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " baskıı "> Kavak Kontrplak <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " baskııı " > Kontrplak Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		    	     <li> <a href = " # " = class = " baskıı "> Merdane <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " baskııı " > Merdane Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " baskıı "> Ahşap Yakma Aparatı </a></li>
+            	</ul>
+            	</li>
+            	     </div>
+        		     <div class = "heykel17">
+				<li><a href="#" class = " heykel ">HEYKEL</a>
+				<ul>
+            		<li> <a href = " # " = class = " heykell "> Seramik Başlangıç Seti <i class="fa fa-angle-right"></i></a>
+                         <ul>
+                              <li><a href = " # " class = " heykelll " > Set Çeşitleri </a></li>
+                         </ul>
+                    </li>
+     				<li> <a href = " # " = class = " heykell "> Seramik Hamuru <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " heykelll " > Hamur Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " heykell "> Plastilin </a></li>
+     				<li> <a href = " # " = class = " heykell "> Polimer Kil <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " heykelll " > Kil Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		    	     <li> <a href = " # " = class = " heykell "> Heykel Kaidesi </a></li>
+     				<li> <a href = " # " = class = " heykell "> Turnet </a></li>
+     				<li> <a href = " # " = class = " heykell "> Modelleme Araçları </a></li>
+     		    	     <li> <a href = " # " = class = " heykell "> Kesme Kalıbı <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " heykelll " > Kalıp Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " heykell "> Doku Kalıbı <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " heykelll " > Kalıp Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " heykell "> Ahşap Oyma Kalıbı <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " heykelll " > Kalıp Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " heykell "> Baskı - Gravür - Linol </a></li>
+     		   	 	<li> <a href = " # " = class = " heykell "> Seramik Boyası <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " heykelll " > Boya Çeşitleri </a></li>
+                              </ul>
+                         </li>
+            	</ul>
+            	</li>
+            	     </div>   
+        		     <div class = "maket18"> 
+				<li><a href="#" class = " maket ">MAKET</a>
+				<ul>
+            		     <li> <a href = " # " = class = " makett "> Kesiciler </a></li>
+     				<li> <a href = " # " = class = " makett "> Maket Yapıştırıcısı </a></li>
+     				<li> <a href = " # " = class = " makett "> İnsan Figürü <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " makettt " > Figür Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " makett "> Hayvan Figürü<i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " makettt " > Figür Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		    	     <li> <a href = " # " = class = " makett "> Ağaç Ve Bitki </a></li>
+     				<li> <a href = " # " = class = " makett "> Yosun - Çim - Flok </a></li>
+     				<li> <a href = " # " = class = " makett "> İç Mekan - Tefriş Maketi <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " makettt " > Maket Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " makett "> Dış Mekan - Peyzaj </a></li>
+     				<li> <a href = " # " = class = " makett "> Straforlu Maket Kartonu <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " makettt " > Karton Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " makett "> Taşıt </a></li>
+     				<li> <a href = " # " = class = " makett "> Trafik Yol Levhaları <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " makettt " > Levha Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     		    	     <li> <a href = " # " = class = " makett "> Çit </a></li>
+     				<li> <a href = " # " = class = " makett "> Aydınlatma </a></li>
+     				<li> <a href = " # " = class = " makett "> Kum - Çakıl - Taş </a></li>
+     				<li> <a href = " # " = class = " makett "> Sünger </a></li>
+     				<li> <a href = " # " = class = " makett "> Asetat - Mukavva </a></li>
+     				<li> <a href = " # " = class = " makett "> 3D Maket <i class="fa fa-angle-right"></i></a>
+                              <ul>
+                                   <li><a href = " # " class = " makettt " > Maket Çeşitleri </a></li>
+                              </ul>
+                         </li>
+     				<li> <a href = " # " = class = " makett "> Tel </a></li>
+     		    	     <li> <a href = " # " = class = " makett "> Diğer Maket Malzemeleri </a></li>
+            	</ul>
+            	</li>
+            	     </div>    
+        		     <div class = "spatül19">
+				<li><a href="#" class = " spatül ">SPATÜLLER </i></a>
+                         <ul>
+                             <li><a href = " # " class = " spatüll " > Spatül Çeşitleri </a></li>
+                         </ul> 
+                    </li>
+			     </div>    
+        		     <div class = "yağdanlık20"> 
+				<li><a href="#" class = " yağdanlık ">YAĞDANLIK & FIRÇA TEMİZLEME</a>
+                         <ul>
+                             <li><a href = " # " class = " yağdanlıkk " > Temizleme Araçları </a></li>
+                         </ul>
+                    </li>
+				</div> 
+        		     <div class = "proje21"> 
+				<li><a href="#" class = " proje ">PROJE ÇANTALARI & TÜPLERİ</a>
+                         <ul>
+                              <li><a href = " # " class = " projee " > Çanta Ve Tüp Çeşitleri </a></li>
+                         </ul>
+                    </li>
+				</div> 
+        		     <div class = "sanatçı22"> 
+				<li><a href="#" class = " sanatçı ">SANATÇI ARAÇLARI</a>
+                         <ul>
+                              <li><a href = " # " class = " sanatçıı " > Araçlar </a></li>
+                         </ul>
+                    </li>
+				</div>  
+        		     <div class = "kampanya23">
+				<li><a href="#" class = " kampanya ">KAMPANYALI ÜRÜNLER</a></li>
+			</ul>
+		</nav>
+	</div>
+     <div class="button">
+          <a href="#" class="button1">KEŞFEDİN</a>
+          <a href="#" class="button2">ALIŞVERİŞE BAŞLA</a>
+     </div>
+     <div class="logo">
+          <img src="log.png">
+     </div>
+</body>
+</html>
